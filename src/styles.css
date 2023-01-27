@@ -109,4 +109,7 @@ p {
   p {
     font-size: 14px;
   }
+  .email-link {
+    font-size: 18px;
+  }
 }
