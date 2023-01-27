@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px;
+  padding-bottom: 50px;
 }
 
 h1,
@@ -15,6 +16,7 @@ h3 {
 }
 
 h1 {
+  color: black;
   font-size: 96px;
 }
 
@@ -92,4 +94,19 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
 }
